@@ -1,0 +1,89 @@
+body {
+    background-color: #2e3033;
+    margin-left: 50px;
+    width: 1050px;
+}
+
+h1 {
+    color: white;
+    border: 2px rgb(92, 79, 79) solid;
+    background: url(https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/31444811_1328664593944519_2941182132439669455_n.png?_nc_cat=0&oh=8b984c7c442faf6bad7cfd19fb4f79dd&oe=5C072F68) no-repeat;
+    padding: 156px;
+
+}
+
+
+p {
+    
+    color: white;
+    border: 5px white;
+    padding: 10px;
+    width: 1000px;
+}
+
+h2 {
+    margin-left: 20px;
+    color: white;
+    width: 1000px;
+}
+
+h3 {
+    color: white;
+}
+
+div {
+    color: white;
+    margin: 5px;
+    margin-left: 20px;
+    font-family: Arial bold;
+    font-size: 25px;
+    padding: 2px;
+}
+
+
+form {
+    margin: 5px;
+    margin-left: 20px; 
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.a {
+    background: white;
+    border: 2px navy solid;
+}
+
+.b {
+    background: white;
+    border: 2px navy solid;
+
+}
+
+.z {
+    font-size: 40px;
+}
+
+
+
+
+button {
+    background-color: goldenrod;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 20px;
+    
+}

@@ -1,0 +1,55 @@
+<html>
+    <head>
+         <link rel="stylesheet" type="text/css" href="blog.css">
+    </head>
+
+    <body>
+    
+        <h1>
+        </h1>
+      
+        <body>
+            <h2>
+                Add new blogpost 
+            </h2>
+            <h2>Title</h2> 
+            <form action="" method="get">
+                    <input id="title" type="text">
+                 
+                  <h3>Content </h3>
+    
+                      <textarea id="content">
+                      </textarea>
+                 </form>
+
+                  <button>
+                      Submit Post
+                  </button>
+         
+       <div>Blog Posts</div>
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyByXNOYTZHKXMXDpus5VkVqFcKIkuYZ5dY",
+    authDomain: "green-fox-blog-project.firebaseapp.com",
+    databaseURL: "https://green-fox-blog-project.firebaseio.com",
+    projectId: "green-fox-blog-project",
+    storageBucket: "green-fox-blog-project.appspot.com",
+    messagingSenderId: "568360288471"
+  };
+  firebase.initializeApp(config);
+  fb = firebase.database();
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+
+    </body>
+
+</html>
