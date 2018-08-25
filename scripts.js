@@ -2,9 +2,9 @@
 
 $('button').on('click', function() {
     let val = $('#title').val();
-    $("div").append("<h2>"+val+"</h2>");
+    $(".post").append("<h2>"+val+"</h2>");
     let val1 = $('#content').val();
-    $("div").append("<p>"+val1+"</p>");
+    $(".post").append("<p>"+val1+"</p>");
    
     let path = "posts/1";
     let dataToSave = {

@@ -8,6 +8,14 @@
         <h1>
         </h1>
       
+        <div class="navbar">
+                <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+                <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+                <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+                <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+              </div>
+
+
         <body>
             <h2>
                 Add new blogpost 
@@ -26,11 +34,49 @@
                       Submit Post
                   </button>
          
-       <div>Blog Posts</div>
+       <div class="post">Blog Posts</div>
 
+       <div class="row">
+            <div class="column">
+              <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/39002442_1430940153716962_4045336679995670528_n.jpg?_nc_cat=0&oh=e36e6b3acab0c188ed8bb5a1c55d9954&oe=5BFB6CF5" alt="Snow" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/38996266_1430940050383639_1970578313059500032_n.jpg?_nc_cat=0&oh=ba824550b3ea4d295c3a9242c5bb3dfd&oe=5C3A716C" alt="Forest" style="width:100%">
+            </div>
+            <div class="column">
+              <img src="https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/29598101_1308808699263442_8760454842816522552_n.jpg?_nc_cat=0&oh=e5fc3a621e49381af7d07421d2fd148f&oe=5BFBDFB1" alt="Mountains" style="width:100%">
+            </div>
+          </div>
 
-
-
+          <div class="container">
+                <div style="text-align:center">
+                  <h2>Contact Us</h2>
+                  <p>Swing by for a cup of coffee, or leave us a message:</p>
+                </div>
+                <div class="row">
+                  <div class="column">
+                    <div id="map" style="width:100%;height:500px"></div>
+                  </div>
+                  <div class="column">
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              
 
 <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
 <script>
